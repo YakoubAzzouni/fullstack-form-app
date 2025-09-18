@@ -22,6 +22,7 @@ services:
       - "5000:5000"
     environment:
       DATABASE_URL: postgresql://postgres:password@db:5432/formappdb
+      
       NODE_ENV: development
     depends_on:
       db:
